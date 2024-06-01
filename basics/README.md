@@ -10,3 +10,4 @@ Project 4:
 8 - rm delets a file from the currenct directory
 9 - rmdir delete a directory
 10 - cd .. changes the directory to the previous one
+11 - ls -ls . .. /boot lists all files in current, parent and boot directory
