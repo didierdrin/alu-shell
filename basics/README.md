@@ -8,3 +8,4 @@ Project 4:
 6 - mktemp creates a directory in the tmp directory 
 7 - mv moves a file from one directory to another
 8 - rm delets a file from the currenct directory
+9 - rmdir delete a directory
