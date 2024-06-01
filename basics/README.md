@@ -9,3 +9,4 @@ Project 4:
 7 - mv moves a file from one directory to another
 8 - rm delets a file from the currenct directory
 9 - rmdir delete a directory
+10 - cd .. changes the directory to the previous one
