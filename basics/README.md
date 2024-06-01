@@ -16,4 +16,4 @@ Project 4:
 14 - cp -u *.html .. copies files with html extension to the parent dir
 15 - mv [A-Z]* /tmp/u moves files that start with an uppercase letter  to /tmp/u
 16 - rm -f *~ deletes all the files that end with ~ without prompting
-17 -
+17 - mkdir this command creates directories
