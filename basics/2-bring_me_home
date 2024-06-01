@@ -1,2 +1,2 @@
 #!/bin/bash
-alias gohome='cd ~'
+cd ~
