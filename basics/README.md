@@ -13,3 +13,7 @@ Project 4:
 11 - ls -ls . .. /boot lists all files in current, parent and boot directory
 12 - file -b filename shows file type 
 13 - ln -s /bin/ls __ls__ creates a symbolic link
+14 - cp -u *.html .. copies files with html extension to the parent dir
+15 -
+16 -
+17 -
