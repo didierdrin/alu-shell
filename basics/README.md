@@ -14,6 +14,6 @@ Project 4:
 12 - file -b filename shows file type 
 13 - ln -s /bin/ls __ls__ creates a symbolic link
 14 - cp -u *.html .. copies files with html extension to the parent dir
-15 -
+15 - mv [A-Z]* /tmp/u moves files that start with an uppercase letter  to /tmp/u
 16 -
 17 -
