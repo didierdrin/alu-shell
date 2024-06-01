@@ -7,3 +7,4 @@ Project 4:
 5 - ls -lan displays current directory contents in a long format including hidden files with user and group IDs displayed numerically
 6 - mktemp creates a directory in the tmp directory 
 7 - mv moves a file from one directory to another
+8 - rm delets a file from the currenct directory
