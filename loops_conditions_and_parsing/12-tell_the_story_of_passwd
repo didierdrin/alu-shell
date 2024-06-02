@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
-# This script extracts visitor IP and HTTP status code from the Apache access log.
+# This script displays user information from the /etc/passwd file.
 
-access_log="/path/to/apache-access.log"
+passwd_file="/etc/passwd"
 
-awk '{print $1, $9}' "$access_log"
+while IFS=: read -r username _ uid gid desc home shell _; do
+    echo "The user $username is part of the $gid gang, lives in $home, and rides $shell."
+    echo "$uid's place is protected by the passcode x, more info about the user here: $desc"
+done < "$passwd_file"
