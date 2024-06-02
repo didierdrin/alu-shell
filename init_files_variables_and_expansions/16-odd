@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -n '' input_file | paste -d'\n' - - | cut -f2
