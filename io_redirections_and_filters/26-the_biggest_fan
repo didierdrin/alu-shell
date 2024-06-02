@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f 1 *.tsv | sort | uniq -c | sort -rn | cut -d ' ' -f 2- | head -n 11
+cut -f 1 *.tsv | sort | uniq -c | sort -rn | cut -d ' ' -f 2- | while read line, do echo "${line:4}", done | head -n 11
