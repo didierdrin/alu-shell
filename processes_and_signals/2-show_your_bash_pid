@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# use ps and grep to filter search term bash
-# shellcheck disable=SC2009 
-ps x | grep bash | grep "$SHELL" 
+# This script displays lines containing the "bash" word, allowing you to identify your Bash process PID.
+# shellcheck disable=SC2009 (Don't complain about using ps x)
+ps x | grep bash | awk '$2 == "'$SHELL'" {print}'
 
