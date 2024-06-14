@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # This script displays a list of all running processes in a user-friendly format,
-
-ps -ef --forest
+pgrep -f "$0"
