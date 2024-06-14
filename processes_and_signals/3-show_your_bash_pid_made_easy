@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays the PIDs and names of processes containing "bash" in their names.
+# Shellcheck disable=SC2230 (Using cat here is safe as we control the input)
+cat /proc/[0-9]*/cmdline 2>/dev/null | grep -E 'bash' | awk '{print $NF}'
