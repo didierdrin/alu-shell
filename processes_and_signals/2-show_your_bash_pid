@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# use ps and grep to filter search term bash
 # shellcheck disable=SC2009 
 ps x | grep bash | grep "$SHELL" 
 
