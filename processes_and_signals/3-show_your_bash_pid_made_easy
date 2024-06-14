@@ -2,9 +2,4 @@
 # This script displays the PID and process name of processes containing 'bash'
 
 pids=$(pgrep -fl bash)
-
-while read -r pid; do
-    process_name=$(cat "/proc/$pid/comm" 2>/dev/null)
-    echo "$pid     $process_name"
-done <<< "$pids"
-
+echo "$pids"
