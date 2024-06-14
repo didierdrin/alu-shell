@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # This script displays a list of all running processes in a user-friendly format,
-ps -eo pid,user,%cpu,%mem,vsz,rss,tty,stat,start,time,command | column -t
- 
+
+ps -eo pid,user,%cpu,%mem,vsz,rss,tty,stat,start,time,command --forest  | column -t
+
